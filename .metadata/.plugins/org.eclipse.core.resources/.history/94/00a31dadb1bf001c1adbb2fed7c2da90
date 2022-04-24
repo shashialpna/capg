@@ -1,0 +1,14 @@
+package com.capg.Bottle;
+
+
+@Entity
+@Table(name = "employee")
+private String name;
+private String email;
+private long phone;
+@Temporal(TemporalType.DATE)
+@Column(name = "joining_date")
+private Date doj
+public class Student {
+
+}
